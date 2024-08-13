@@ -1,0 +1,94 @@
+body {
+  background: hsl(0, 0%, 11%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  margin: 0;
+}
+.counter-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+
+  background: hwb(0 100% 0%);
+  border: 1px solid hsl(0, 0%, 0%);
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px hsl(0, 0%, 0%, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 750px;
+  display: inline-block;
+}
+
+.count-display {
+  font-size: 7.5em;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.count-display.increase {
+  transform: scale(1.1);
+}
+
+.count-display.decrease {
+  transform: scale(0.9);
+}
+
+.decreament-button {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: hsl(0, 75%, 59%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.decreament-button:hover {
+  background-color: hsl(0, 62%, 45%);
+}
+
+.reset-button {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: hsl(180, 66%, 63%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.reset-button:hover {
+  background-color: hsl(180, 66%, 45%);
+}
+
+.increament-button {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: hsl(135, 78%, 60%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.increament-button:hover {
+  background-color: hsl(135, 61%, 43%);
+}
+
+.headline {
+  font-size: 3em;
+  font-family: sans-serif, cursive;
+  color: hsl(60, 2%, 25%);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
